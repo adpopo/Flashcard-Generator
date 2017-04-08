@@ -8,7 +8,7 @@ function ClozeCard(text, cloze){
 	}
 
 	this.cloze = cloze;
-	this.text = text;
+	this.fullText = text;
 	this.partial = text.replace(cloze, "...");
 }
 
